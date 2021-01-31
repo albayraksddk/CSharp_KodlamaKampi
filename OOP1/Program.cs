@@ -19,6 +19,13 @@ namespace OOP1
             //C# case sensitive bir programlama dilidir.
             //PascalCase    //camelCase
             ProductManager productManager = new ProductManager();
+            productManager.Add(product1);
+            Console.WriteLine(product1.ProductName);
+
+            //productManager.Topla2(3, 6);
+
+            //int toplamaSonucu = productManager.Topla(3, 6);
+            //Console.WriteLine(toplamaSonucu*2);
         }
     }
 }
